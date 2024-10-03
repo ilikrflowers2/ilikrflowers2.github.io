@@ -1,0 +1,289 @@
+.Navbar {
+  background-color: rgb(182, 160, 160);
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: cursive;
+}
+body {
+  margin: 0%;
+  background-color: rgb(247, 238, 228);
+}
+#swing {
+  display: none;
+}
+#lk {
+  display: none;
+}
+#Kiana {
+  font-family: cursive;
+  font-size: 250%;
+  color: rgb(165, 88, 117);
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+#Sillymall {
+  display: none;
+}
+#Kwick {
+  display: none;
+}
+#cheeta {
+  height: 100vh;
+}
+#Me {
+  height: 700px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#Pua {
+  height: 100px;
+  width: 160px;
+}
+#gold {
+  height: 150px;
+  width: 200px;
+}
+
+#MJD {
+  display: none;
+}
+#Hevenly {
+  display: none;
+}
+s #racoon {
+  height: 100px;
+  width: 150px;
+}
+.phototext {
+  color: rgb(149, 126, 126);
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+}
+#Hannah {
+  color: rgb(149, 126, 126);
+  font-family: cursive;
+  font-size: large;
+}
+#pics {
+  color: rgb(149, 126, 126);
+  font-family: cursive;
+  font-size: large;
+}
+.friendphotos {
+  display: flex;
+  justify-content: space-around;
+}
+#mall {
+  height: 300px;
+  width: 150px;
+}
+#smile {
+  height: 300px;
+}
+#Shayla {
+  display: none;
+}
+
+#inroom {
+  height: 200px;
+}
+#Sdog {
+  display: none;
+}
+#Kme {
+  display: none;
+}
+#HandK {
+  height: 190px;
+  width: 340px;
+}
+.friendphotos2 {
+  display: flex;
+  justify-content: space-around;
+}
+#Latenight {
+  height: 200px;
+  width: 150;
+}
+#ttrio {
+  display: none;
+}
+.Home {
+  background-image: url(download-1.jpg);
+  height: 100vh;
+}
+#rose {
+  display: none;
+}
+#Hannah2 {
+  font-family: cursive;
+  font-size: 250%;
+  color: rgb(165, 88, 117);
+  display: none;
+}
+@media all and (min-width: 760px) {
+  #cheeta {
+    display: none;
+  }
+  #Kiana {
+    display: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+  }
+  body {
+    background-color: rgb(253, 250, 252);
+  }
+  .Navbar {
+    background-color: rgb(250, 238, 246);
+    height: 110px;
+  }
+  a {
+    color: rgb(162, 94, 121);
+    font-size: xx-large;
+  }
+  .Home {
+    display: unset;
+  }
+  #rose {
+    display: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    height: 550px;
+  }
+  #pics {
+    color: rgb(165, 88, 117);
+    font-size: xx-large;
+  }
+  #Hannah {
+    color: rgb(165, 88, 117);
+    font-size: xx-large;
+  }
+  .phototext {
+    color: rgb(165, 88, 117);
+    font-size: xx-large;
+  }
+  #racoon {
+    height: 7cm;
+    width: 300px;
+    margin-top: 100px;
+  }
+  #Pua {
+    height: 750px;
+    width: 300px;
+  }
+  #gold {
+    height: 750px;
+    width: 300px;
+  }
+  #Hannah {
+    display: none;
+  }
+  #Hannah2 {
+    display: unset;
+    padding-right: 400px;
+  }
+  .friendphotos {
+    margin-top: 100px;
+  }
+
+  #mall {
+    height: 400px;
+    width: 250px;
+  }
+  #smile {
+    height: 400px;
+    width: 250px;
+  }
+  #Sillymall {
+    display: unset;
+    height: 500px;
+  }
+  #Kwick {
+    display: unset;
+    height: 500px;
+  }
+  .friendphotos2 {
+    margin-top: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #inroom {
+    height: 400px;
+    margin-left: 30px;
+    margin-inline: 20px;
+  }
+  #HandK {
+    display: none;
+  }
+  #Latenight {
+    height: 400px;
+    display: none;
+  }
+  #ttrio {
+    display: unset;
+    height: 400px;
+  }
+  .summer {
+    justify-content: space-between;
+    height: 400px;
+  }
+  #MJD {
+    display: unset;
+    height: 500px;
+    margin-left: 20px;
+  }
+  #Hevenly {
+    display: unset;
+    height: 400px;
+    margin-left: 20px;
+  }
+
+  .summer2 {
+    height: 400px;
+    justify-content: space-evenly;
+    margin-top: 100px;
+  }
+
+  #Shayla {
+    display: unset;
+    height: 599px;
+    margin-top: 150px;
+  }
+  #Sdog {
+    display: unset;
+    color: rgb(165, 88, 117);
+    font-size: 40px;
+    font-family: cursive;
+    width: 40%;
+    height: 50%;
+  }
+  .summer4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #Kme {
+    display: unset;
+    color: rgb(165, 88, 117);
+    font-size: 40px;
+    font-family: cursive;
+    font-size: xx-large;
+  }
+}
